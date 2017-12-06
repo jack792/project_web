@@ -1,0 +1,119 @@
+body {
+    font-family: Nexa;
+    margin: 0;
+}
+
+
+body > * {
+    padding: 0 1em;
+
+}
+
+header {
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+header img {
+    height: 3em;
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    margin: 0 .5em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #00D66C;
+    display: inline-block;
+    line-height: 2;
+}
+main > h1 {
+    text-align: center;
+    color: #00D66C;
+}
+
+main ul {
+    display: flex;
+
+}
+main ul li {
+    width: 11em;
+    height: 15em;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    background-color: #00D66C;
+}
+
+main > form {
+    text-align: right;
+}
+
+input {
+    margin: 10px 0;
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 70px;
+
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 200px;
+    background-color: #fff;
+    border-color: #66CC75;
+
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
