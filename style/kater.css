@@ -1,0 +1,460 @@
+body {
+    font-family: Nexa;
+    margin: 0 auto;
+}
+
+body > * {
+    padding: 0.5em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER PAGE CSS START*/
+
+body > header {
+    align-items: center;
+    background-color: #F7F7F7;
+    box-shadow: 0 2px 0.56em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: 0em 1em;
+    margin: 0 auto;
+
+}
+
+
+header img {
+    height: 2em;
+    align-items: center;
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    font-size: 2vw;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li {
+    font-size: 0.9em;
+}
+
+nav ul li:nth-of-type(1) {
+    margin-right: 0.6em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #00D66C;
+    display: flex;
+}
+
+/*HEADER PAGE CSS END*/
+
+main {
+    height: 120em;
+    background: url(../images/Kater-Mobile.png);
+    background-size: cover;
+}
+
+
+section + footer {
+    background-color: #F7F7F7;
+    height: 2em;
+    box-shadow: 0 2em 1em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(0, 0, 0, 0.10);
+}
+
+footer {
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > p {
+    color: #4F4F4F;
+    align-self: center;
+}
+
+footer > img {
+    height: 1.5em;
+    margin: 0;
+    align-self: center;
+}
+
+div {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    width: 66em;
+
+}
+
+
+@media (min-width:25em) {
+
+    main {
+        height: 42em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:26em) {
+
+    main {
+        height: 44em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:27em) {
+
+    main {
+        height: 47em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:28em) {
+
+    main {
+        height: 50em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:29em) {
+
+    main {
+        height: 53em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:31em) {
+
+    main {
+        height: 55em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:33em) {
+
+    main {
+        height: 57em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:35em) {
+
+    main {
+        height: 59em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:37em) {
+
+    main {
+        height: 63em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:39em) {
+
+    main {
+        height: 67em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+
+    }
+
+}
+
+
+@media (min-width:41em) {
+
+    main {
+        height: 69em;
+        background: url(../images/Kater-Mobile.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:43em) {
+
+    main {
+        height: 57em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:45em) {
+
+    main {
+        height: 57em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:47em) {
+
+    main {
+        height: 57;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:49em) {
+
+    main {
+        height: 59em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:51em) {
+
+    main {
+        height: 61em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:53em) {
+
+    main {
+        height: 63em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:55em) {
+
+    main {
+        height: 65em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:57em) {
+
+    main {
+        height: 67em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:59em) {
+
+    main {
+        height: 69em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:62em) {
+
+    main {
+        height: 72em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:66em) {
+
+    main {
+        height: 74em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:68em) {
+
+    main {
+        height: 76em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width:70em) {
+
+    main {
+        height: 78em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:72em) {
+
+    main {
+        height: 80em;
+        background: url(../images/Kater-Tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:74em) {
+
+    main {
+        height: 40em;
+        background: url(../images/Kater-Dekstop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:78em) {
+
+    main {
+        height: 43em;
+        background: url(../images/Kater-Dekstop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:80em) {
+
+    main {
+        height: 45em;
+        background: url(../images/Kater-Dekstop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:82em) {
+
+    main {
+        height: 45em;
+        background: url(../images/Kater-Dekstop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:84em) {
+
+    main {
+        height: 47em;
+        background: url(../images/Kater-Dekstop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}
+
+@media (min-width:86em) {
+
+    main {
+        height: 49em;
+        background: url(../images/Kater-Dekstop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+}

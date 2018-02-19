@@ -1,0 +1,459 @@
+body {
+    font-family: Nexa;
+    margin: 0 auto;
+}
+
+body > * {
+    padding: 0.5em;
+
+}
+
+a {
+    text-decoration: none;
+} 
+
+
+/*HEADER PAGE CSS START*/
+
+body > header {
+    align-items: center;
+    background-color: #F7F7F7;
+    box-shadow: 0 2px 0.56em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: 0em 1em;
+    margin: 0 auto;
+
+}
+
+
+header img {
+    height: 2em;
+    align-items: center;
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    font-size: 2vw;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li {
+    font-size: 0.9em; 
+}
+
+nav ul li:nth-of-type(1){
+    margin-right: 0.6em;
+}
+nav li a {
+    text-decoration: none;
+    color: #00D66C;
+    display: flex;
+}
+
+/*HEADER PAGE CSS END*/
+
+main {
+    height: 120em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+
+
+section + footer {
+    background-color: #F7F7F7;
+    height: 2em;
+    box-shadow: 0 2em 1em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(0, 0, 0, 0.10);
+}
+
+footer {
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > p {
+    color: #4F4F4F;
+    align-self: center;
+}
+
+footer > img {
+    height: 1.5em;
+    margin: 0;
+    align-self: center;
+}
+
+div {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    width: 74em;
+    
+}
+
+
+@media (min-width:25em) {
+    
+    main {
+    height: 130em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:27em) {
+    
+    main {
+    height: 140em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:30em) {
+    
+    main {
+    height: 150em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:32em) {
+    
+    main {
+    height: 160em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:34em) {
+    
+    main {
+    height: 170em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:36em) {
+    
+    main {
+    height: 180em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:38em) {
+    
+    main {
+    height: 190em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+}
+    
+}
+
+@media (min-width:41em) {
+    
+    main {
+    height: 200em;
+    background: url(../images/Vrijdag%2013-Mobile.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:43em) {
+    
+    main {
+    height: 114em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:45em) {
+    
+    main {
+    height: 120em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+
+@media (min-width:47em) {
+    
+    main {
+    height: 125em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:49em) {
+    
+    main {
+    height: 130em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:51em) {
+    
+    main {
+    height: 135em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:53em) {
+    
+    main {
+    height: 140em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:55em) {
+    
+    main {
+    height: 145em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:57em) {
+    
+    main {
+    height: 150em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:59em) {
+    
+    main {
+    height: 155em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:61em) {
+    
+    main {
+    height: 160em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:63em) {
+    
+    main {
+    height: 165em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:65em) {
+    
+    main {
+    height: 170em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:67em) {
+    
+    main {
+    height: 175em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:69em) {
+    
+    main {
+    height: 180em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:71em) {
+    
+    main {
+    height: 185em;
+    background: url(../images/Vrijdag%2013%20-%20Tablet.png);
+    background-size: cover;
+    
+}
+    
+}
+
+@media (min-width:72em) {
+    
+    main {
+    height: 60em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+
+@media (min-width:74em) {
+    
+    main {
+    height: 61em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+
+@media (min-width:76em) {
+    
+    main {
+    height: 62em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+
+@media (min-width:78em) {
+    
+    main {
+    height: 64em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+
+@media (min-width:80em) {
+    
+    main {
+    height: 66em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+
+@media (min-width:82em) {
+    
+    main {
+    height: 68em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+
+@media (min-width:84em) {
+    
+    main {
+    height: 70em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}
+@media (min-width:86em) {
+    
+    main {
+    height: 72em;
+    background: url(../images/Vrijdag%2013%20-%20Dekstop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+    
+}
+    
+}

@@ -1,103 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>De stijloefening</title>
     <link rel="stylesheet" href="style/styled.css">
 </head>
 
 <body>
     <header>
-        <a href="">
-            <img src="images/transavia%20logo.png" alt="Transavia logo">
-        </a>
         <nav>
+            <a href="index.html">
+                <img src="images/transavia%20logo.png" alt="Transavia logo">
+            </a>
             <ul>
-                <li><a href="Aanmelden">Aanmelden</a></li>
-                <li><a href="Inloggen">Inloggen</a></li>
+                <li><a href="inloggen.html">Aanmelden</a></li>
+                <li><a href="inloggen.html">Inloggen</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
-        <form>
-            <input type="search" placeholder="Zoeken">
-        </form>
+<!--    <div class="helper"></div>-->
+    <section>
         <h1>Voor de Kerstdagen!</h1>
-        <ul>
-            <li>
-                <h1>Lange Frans</h1>
-                <p>Uh, uh, dit is Lange Frans, uh, uh...</p>
-            </li>
-            <li>
-                <h1>Vrijdag de 13e</h1>
-                <p>Bij het uitstappen van de bus waait mijn jas open, precies op het moment dat...</p>
-            </li>
-            <li>
-                <h1>Kater</h1>
-                <p>Ik had vandaag bus 21 willen nemen naar het Centraal Station om naar de Openbare Bibliotheek te gaan...</p>
-            </li>
-        </ul>
+        <div>
+            <article class="carousel">
+                <header>
+                    <h2>Lange Frans</h2>
+                    <img src="images/star.png" alt="">
+                </header>
+                <footer>
+                    <section>
+                        <h3>20</h3>
+                       <img src="images/like.png" alt="">
+                       <h3>30</h3>
+                       <img src="images/man-user.png" alt="">
+                    </section>
+                    <a href="langefrans.html">
+                    <h4>Lees verder</h4>
+                    </a>
+                </footer>
+            </article>
+            <article class="carousel">
+                <header>
+                    <h2>Vrijdag de 13e</h2>
+                    <img src="images/star.png" alt="">
+                </header>
+                <footer>
+                    <section>
+                        <h3>16</h3>
+                        <img src="images/like.png" alt="">
+                        <h3>28</h3>
+                        <img src="images/man-user.png" alt="">
+                    </section>
+                    <a href="vrijdag.html">
+                   <h4>Lees verder</h4>
+                   </a>
+                </footer>
+            </article>
+            <article class="carousel">
+                <header>
+                    <h2>Kater</h2>
+                    <img src="images/star.png" alt="">
+                </header>
+                <footer>
+                    <section>
+                        <h3>20</h3>
+                        <img src="images/like.png" alt="">
+                        <h3>45</h3>
+                        <img src="images/man-user.png" alt="">
+                    </section>
+                    <a href="kater.html">
+                   <h4>Lees verder</h4>
+                   </a>
+                </footer>
+            </article>
+        </div>
+    </section>
+    <section id="head">
+            <h2> De 99 verhalen:</h2>
+            <button id="vert">Filters</button>
+        <form>
+            <input type="search">
+        </form>
+        <hr>
+    </section>
+    <div>
+        <input class="search2 hideSearch" type="search" placeholder="Zoeken">
+        <img src="images/searchexit.png" alt="close" class="hideSearchButton">
+    </div>
+    <section class="closed">
+          <h2>Sorteren op:</h2>
+          <img src="images/closeicon.png" alt="">
+          <ul class="sorteren">
+              <li>
+                  <h3>Meest populair</h3>
+              </li>
+              <li>
+                  <h3>Meest geliked</h3>  
+              </li>  
+              <li>
+                  <h3>A-Z</h3>
+              </li>
+          </ul>
+          <h2>Genre/type:</h2>
+              <ul class="genre">
+                  <li>
+                      <h3>Humor</h3>
+                  </li>
+                  <li>
+                      <h3>Avontuur</h3>
+                  </li>
+                  <li>
+                      <h3>Spanning</h3>
+                  </li>
+                  <li>
+                      <h3>Serieus</h3>
+                  </li>
+                  <li>
+                      <h3>Reëel</h3>
+                  </li>
+                  <li>
+                      <h3>Anders</h3>
+                  </li>
+              </ul>
 
-        <aside>
-            <h2>Filteren:</h2>
-            <li>
-                <ul>
-                    <form action="">
-                        <input type="text" value="Lengte">
-                        <select id="myList">
-                           <option value = "1">Kort</option>
-                           <option value = "2">Middel</option>
-                           <option value = "3">Lang</option>
-                        </select>
-                    </form>
-                </ul>
-                <ul>
-                    <form action="">
-                        <input type="text" value="Ontwerper">
-                        <select id="myList">
-                           <option value = "1"></option>
-                           <option value = "2"></option>
-                           <option value = "3"></option>
-                        </select>
-                    </form>
-                </ul>
-                <ul>
-                    <form action="">
-                        <input type="text" value="Huisstijl kleur">
-                        <select id="myList">
-                           <option value = "1"></option>
-                           <option value = "2"></option>
-                           <option value = "3"></option>
-                        </select>
-                    </form>
-                </ul>
-            </li>
-        </aside>
-
-        <section>
-            <li>
-                <ul>
-                    <h1>Stijloefeningen (98)</h1>
-                </ul>
-                <ul>
-                    <h1>Stijloefeningen (97)</h1>
-                </ul>
-            </li>
-        </section>
-
-        <aside>
-            <h2>Sorteren op:</h2>
-            <select id="myList">
-               <option value = "1">Populariteit</option>
-               <option value = "2">Alfabetisch</option>
-               <option value = "3">Nieuw</option>
-             </select>
-
-        </aside>
+          <h2>Lengte:</h2>
+              <ul class="lengte">
+                  <li>
+                      <h3>Kort</h3>
+                  </li>
+                  <li>
+                      <h3>Middel</h3>
+                  </li>
+                  <li>
+                      <h3>Lang</h3>
+                  </li>
+              </ul>
+    </section>
+    <h2 class="hidden">Humor (4 resultaten)</h2>
+    <main class="openfilter">
+        <article>
+            <header>
+                <h2>(99) Verrassing</h2>
+                <img src="images/star.png" class="sterleeg" alt="">
+                <img src="images/starvol.png" class="hidden stervol" alt="">
+            </header>
+            <div class="hidden">
+                <p>Toegevoegd aan favorieten!!</p>
+            </div>
+            <p>- ‘Biertje dan maar?’ – ‘Graag.’ – ‘Vermoeiende dag?’ – ‘Nah. Naar de bilbiotheek geweest. Met de bus.’ – ‘Gaat daar een bus naartoe?’ – ‘De bus stopt op het stationsplein.’ – ‘Ah. En vandaar moet je lopen?’ – ‘Ja, ik was met mijn zoon. Die sliep in zijn kinderwagen.’ – ‘Goed zo. Lekker wandelweer?’ […]</p>
+            <footer>
+               <section>
+                    <h3>7</h3>
+                    <img src="images/like.png" alt="">
+                    <h3>30</h3>
+                    <img src="images/man-user.png" alt="">
+                </section>
+                <h4>Lees verder</h4>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h2>(98) Beroemd</h2>
+                <img src="images/star.png" alt="">
+            </header>
+            <p>Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal terug. ‘Mijn vrouw is een groot fan van u’, roept hij. ‘Doe haar de groeten’, zeg ik en stap uit. Centraal Station. Ik duw mijn zoon voort. Hij slaapt. Zich onbewust van de last die er […]</p>
+            <footer>
+               <section>
+                    <h3>20</h3>
+                   <img src="images/like.png" alt="">
+                   <h3>45</h3>
+                   <img src="images/man-user.png" alt="">
+                </section>
+               <h4>Lees verder</h4>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h2>(97) Freudiaans</h2>
+                <img src="images/star.png" alt="">
+            </header>
+            <p>Ik stap uit de lul. Mijn aarsrivaal ligt te slapen in zijn kinderwagen. Wat een kutweer. De mensen zijn met zichzelf bezig, wat er hoogstwaarschijnlijk op neerkomt dat ze aan seks met hun moeder denken. Ik ben op weg naar de Openaarse Bilbiotheek van Amsterdam, om Stijloefeningen te lenen[…]</p>
+            <footer>
+                 <section>
+                  <h3>17</h3>
+                   <img src="images/like.png" alt="">
+                   <h3>23</h3>
+                   <img src="images/man-user.png" alt="">
+                </section>
+               <h4>Lees verder</h4>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h2>(96) Steenkolenfrans</h2>
+                <img src="images/star.png" alt="">
+            </header>
+            <p>Le premier fevrièr 2011. Presque midi. Le bus s’arrête. Ligne 21. Place de Gare Centrale. Je marche au derrière d’un poussette. Mon fils dort. Je suis en route au Bibliothèque Public pour emprunteur Exercices de Style de Raymond Queneau. C’est un livre très dificile d’acquérir. Mais zut alors, quelle[…]</p>
+            <footer>
+                 <section>
+                  <h3>9</h3>
+                   <img src="images/like.png" alt="">
+                   <h3>22</h3>
+                   <img src="images/man-user.png" alt="">
+                </section>
+               <h4>Lees verder</h4>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h2>(95) Martin Bril</h2>
+                <img src="images/star.png" alt="">
+            </header>
+            <p>Centraal Station. Iedereen gaat er naartoe, niemand moet er zijn. Behalve om verder te reizen. Ik stap uit de bus, lijn 21. Van Geuzenveld naar Centraal Station. Mijn zoon slaapt in zijn kinderwagen. Eindelijk. Het is druk op het plein, en toch heerst er een rust. De mensen zijn met zichzelf bezig.[…]</p>
+            <footer>
+                 <section>
+                  <h3>2</h3>
+                   <img src="images/like.png" alt="">
+                   <h3>11</h3>
+                   <img src="images/man-user.png" alt="">
+                </section>
+               <h4>Lees verder</h4>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h2>(94) Het gebrek</h2>
+                <img src="images/star.png" alt="">
+            </header>
+            <p>De bus uit. Mijn zoon tukt in zijn kinderkoets. Eindelijk. Ik loop over het plein. Een gierende wind en een striemende miezerregen geselen mijn gezicht. De mensen kijken voor zich uit, ieder voor zich. Ik ben op weg richting de bibliotheek om Stijloefeningen te lenen van hoe heet die schijver, iets[…]</p>
+            <footer>
+                 <section>
+                  <h3>30</h3>
+                   <img src="images/like.png" alt="">
+                   <h3>60</h3>
+                   <img src="images/man-user.png" alt="">
+                </section>
+               <h4>Lees verder</h4>
+            </footer>
+        </article>
     </main>
-
-</body>
-
+    <footer>
+        <p>Giacomo Galizia - 2018</p>
+        <img src="images/transavia%20logo.png" alt="">
+    </footer>
+    <script src="js/java.js"></script>
+    </body>
 </html>

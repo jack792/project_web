@@ -1,0 +1,400 @@
+/*CSS INLOGPAGINA START*/
+
+/*Small screen*/
+
+body {
+    font-family: Nexa;
+    margin: 0 auto;
+    background-image: url(../images/island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50em;
+}
+
+body > * {
+    padding: 0.5em;
+
+}
+
+/*HEADER PAGE CSS START*/
+
+body > header {
+    align-items: center;
+    background-color: #F7F7F7;
+    box-shadow: 0 2px 0.56em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: 0em 1em;
+    margin: 0 auto;
+
+}
+
+nav img {
+    height: 2em;
+    align-items: center;
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    font-size: 2vw;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li {
+    font-size: 0.9em;
+}
+
+nav ul li:nth-of-type(1) {
+    margin-right: 0.6em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #00D66C;
+    display: flex;
+}
+
+/* Hide content*/
+
+.inlogcontent {
+    background-color: white;
+    /max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in;
+}
+
+
+/* Hide content*/
+
+main {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    padding-bottom: 5em;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin-bottom: 1em;
+    height: 22em;
+    border-radius: 1em;
+    box-shadow: 0 2px 0.56em 0 rgba(0, 0, 0, 0.1), 0 5px 0.62em 0 rgba(0, 0, 0, 0.10);
+
+}
+
+
+main > article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    height: 22em;
+    border-radius: 1em;
+    width: 100%;
+    height: 100%;
+    margin: 1em;
+    justify-content: center;
+}
+
+article header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: -0.7em;
+    align-items: center;
+
+}
+
+article header img {
+    height: 2em;
+    display: flex;
+    padding: 0;
+    margin: auto 1em;
+}
+
+footer img {
+    height: 1em;
+    display: flex;
+    align-self: center;
+    margin-bottom: 0;
+
+}
+
+h2 {
+    color: #37358d;
+    font-weight: 700;
+    padding: 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+hr {
+    border-top: 0.04em solid #E2E2E2;
+    width: 92%;
+}
+
+p {
+    padding: 0;
+    margin: 1em 1em;
+    color: #606060;
+}
+
+article p:nth-of-type(2) {
+    color: #2800a0;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+textarea:focus,
+input:focus {
+    border: 0.2em solid #898989;
+}
+
+textarea {
+    font-size: 1.5em;
+}
+
+
+input {
+    font-family: Nexa;
+    height: 2.5em;
+    border-radius: 1em;
+    border: 0.1em solid #5C5C5C;
+    width: 70%;
+    padding: 0 1em;
+}
+
+
+
+/*
+input:nth-of-type(3):valid {
+    background-color: #00D66C;
+    opacity: 0.7;
+}
+*/
+
+input:invalid {
+    background-color: pink;
+}
+
+.tooltip {
+    z-index: 1;
+    color: DodgerBlue;
+    padding: .25em;
+    background: AliceBlue;
+    border: 1px solid currentColor;
+    font-style: italic;
+    transition: all .2s;
+    margin-top: -3em;
+    opacity: 0;
+}
+
+form {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.open {
+    height: 10em;
+}
+
+::-webkit-input-placeholder {
+    color: #9F9F9F;
+    font-family: Nexa;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+label {
+    color: black;
+    font-weight: 700;
+    display: block;
+    margin: 0.5em auto;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+main + footer {
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    justify-content: space-between;
+    padding: 0;
+    bottom: 0;
+    background-color: #ECECEC;
+    box-shadow: 0 2em 1em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(0, 0, 0, 0.10);
+}
+
+main + footer > p {
+    margin: 0.5em;
+    color: #4F4F4F;
+    align-self: center;
+}
+
+main + footer > img {
+    height: 1.5em;
+    margin: 0.5em;
+    align-self: center;
+}
+
+/*HEADER PAGE CSS END*/
+
+h3 {
+    cursor: pointer;
+    width: 8em;
+    display: flex;
+    margin: auto 0 1em 1em;
+    padding: 0.6em;
+    justify-content: space-around;
+    border-radius: 4em;
+    font-weight: 700;
+    font-size: 0.9em;
+    color: white;
+    bottom: 0;
+    border: none;
+    background-color: #eb3c6b;
+    box-shadow: inset 0 -0.3em 0 0 rgba(112, 112, 112, 0.5);
+
+}
+
+
+
+
+@media (min-width:32em) {
+
+    main {
+        width: 90%;
+        justify-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+
+
+}
+
+
+@media (min-width:39em) {
+
+    main {
+        width: 80%;
+        justify-content: center;
+        margin-right: 10%;
+        margin-left: 10%;
+
+
+    }
+
+}
+
+@media (min-width:48em) {
+
+    main {
+        display: flex;
+        padding: 0;
+        width: 74%;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        margin-top: 3em;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    main > article:nth-of-type(1) {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 1em 0 0 1em;
+        width: 1000%;
+        height: 31em;
+        margin: 1em 0;
+        justify-content: center;
+        box-shadow: none;
+    }
+
+    main > article:nth-of-type(2) {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 0 1em 1em 0;
+        width: 1000%;
+        height: 31em;
+        margin: 1em 0;
+        justify-content: center;
+        box-shadow: none;
+        opacity: 0.8;
+    }
+
+
+    article footer {
+        height: 1.5em;
+    }
+
+    article footer img {
+        display: none;
+
+    }
+
+
+    button {
+        cursor: pointer;
+        width: 8em;
+        display: flex;
+        margin: 0 0 1em 1em;
+        padding: 0;
+        justify-content: space-around;
+        height: 2.5em;
+        border-radius: 4em;
+        font-weight: 700;
+        font-size: 0.9em;
+        color: white;
+        bottom: 0;
+        border: none;
+        background-color: #eb3c6b;
+        box-shadow: inset 0 -0.3em 0 0 rgba(112, 112, 112, 0.5);
+
+    }
+
+    button:nth-of-type(1) {}
+
+
+}
+
+
+
+/*CSS INLOGPAGINA END*/
